@@ -4,20 +4,16 @@ Techniques of Encoding, Linear Regression, Logistic Regression &amp; Linear Disc
 The coding language used here is Python Programing.
 
 ## DataSet:
-- Credit card usage of customers (cubic_zirconia.csv).
-- Tour Insurance claims (Holiday_Package.csv).
+- Gem Stones (cubic_zirconia.csv).
+- Tour and Travel agency (Holiday_Package.csv).
 
 ## Code File: (.ipynb)
 - code_file.ipynb
 
 ## Business Report: (.pdf)
 This report provides a detailed explanation on approach used, record inferences, insights and provide suitable business solutions/ recommendations.<br>
-
-- Credit card usage of customers is analyzed by clustering them in to different segments and suitable business recommendations for promotional purposes are made. <br>
-- The techniques of hierarchical clustering using dendrograms and non-hierarchical method of KMeans clustering are employed.<br>
-<br>
-- The insurance claims data of past few years are used to make a model that predicts the claim status, based on which suitable recommendations are made to the management<br>
-- The techniques of CART (Classification And Regression Tree), Random Forest & ANN (Artificial Neural Networks) are employed in the model building.  
+- Encoding, Linear Regression model is used in predicting the price for the stone, so it can distinguish between higher profitable stones and lower profitable stones and help the company have better profit share. <br>
+- Encoding, Logistic Regression & Linear Discriminant Models are used in predicting whether an employee will opt for the package or not.
 
 ## Libraries used:
 > pandas<br>
@@ -29,16 +25,19 @@ This report provides a detailed explanation on approach used, record inferences,
 > matplotlib<br>
 > > - pyplot
 
-> scipy<br>
-> > - cluster.hierarchy - dendrogram, linkage, fcluster 
+> statsmodels<br>
+> > - formula.api - smf 
 
 > sklearn<br>
-> > - preprocessing - StandardScaler,cluster - KMeans<br>
-> > - metrics - silhouette_samples, silhouette_score, classification_report, confusion_matrix, roc_auc_score, roc_curve<br>
-> > - tree - DecisionTreeClassifier<br>
-> > - ensemble - RandomForestClassifier<br>
-> > - neural_network - MLPClassifier<br>
-> > - model_selection - train_test_split, GridSearchCV<br>
+> > - model_selection - train_test_split<br>
+> > - linear_model - LinearRegression, LogisticRegression<br>
+> > - metrics - roc_auc_score, roc_curve, classification_report, confusion_matrix, plot_confusion_matrix<br>
+> > - preprocessing - LabelEncoder<br>
+> > - discriminant_analysis - LinearDiscriminantAnalysis<br>
+
+> scipy<br>
+> > - stats - zscore
+
 
 ## How to run the code?
 - Fork & Clone the repository
@@ -48,8 +47,3 @@ This report provides a detailed explanation on approach used, record inferences,
 
 
 **This detailed analysis was performed by me as a part of my course work in Post Graduate Program in Data Science & Business Analytics**
- 
-
-
-
-
