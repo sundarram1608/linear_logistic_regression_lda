@@ -4,8 +4,8 @@ Techniques of Encoding, Linear Regression, Logistic Regression &amp; Linear Disc
 The coding language used here is Python Programing.
 
 ## DataSet:
-- Credit card usage of customers (bank_marketing_part1_Data.csv).
-- Tour Insurance claims (insurance_part2_data.csv).
+- Credit card usage of customers (cubic_zirconia.csv).
+- Tour Insurance claims (Holiday_Package.csv).
 
 ## Code File: (.ipynb)
 - code_file.ipynb
